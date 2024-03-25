@@ -29,3 +29,16 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(stringNumber,typeof(stringNumber))
+
+// conversion condition
+// console.log( null > 0)
+// console.log( null === 0)
+// console.log( null >= 0)
+
+// console.log(undefined == 0)
+// console.log(undefined > 0)
+// console.log(undefined >= 0)
+
+// Strict Check
+console.log("2" == 2)
+console.log("2" === 2)
