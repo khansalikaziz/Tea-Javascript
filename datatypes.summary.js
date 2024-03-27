@@ -23,5 +23,19 @@ const userDetail={"name":"salik","age":21}
 const myFun=function(){
     console.log("Hello World")
 }
-console.log(typeof id)
+//console.log(typeof id)
+
+// +++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack ,Heap
+
+// Stack (used in Primitive type) -->We get copy of the variable from here
+// Heap (used in Non Primitive type)--> We get reference of original value
+
+let Youtubename = "Salik Aziz Khan"
+
+let anothername = Youtubename
+console.log(anothername)
+
+
 
